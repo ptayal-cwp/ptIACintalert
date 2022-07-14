@@ -1,8 +1,8 @@
-resource "aws_s3_bucket" "examplebucket" {
+resource "aws_s3_bucket" "examplebucket1" {
   bucket = "examplebuckettftest"
 }
 
-resource "aws_s3_bucket" "mfadelete" {
+resource "aws_s3_bucket" "mfadelete1" {
   bucket = "examplebuckettftest"
   acl    = "private"
   versioning {
